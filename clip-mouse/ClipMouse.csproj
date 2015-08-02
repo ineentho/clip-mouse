@@ -7,7 +7,7 @@
     <ProjectGuid>{372B16F7-4C62-4AA4-926F-00FF8A5C357E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>clip_mouse</RootNamespace>
+    <RootNamespace>ClipMouse</RootNamespace>
     <AssemblyName>clip-mouse</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -53,9 +53,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="winapi\Invoke.cs" />
-    <Compile Include="winapi\InvokeException.cs" />
-    <Compile Include="winapi\Vector2.cs" />
+    <Compile Include="WinAPI\Invoke.cs" />
+    <Compile Include="WinAPI\InvokeException.cs" />
+    <Compile Include="WinAPI\Vector2.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -70,7 +70,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="winapi\MouseAPI.cs" />
+    <Compile Include="WinAPI\MouseAPI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
